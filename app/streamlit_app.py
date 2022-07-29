@@ -4,7 +4,7 @@ import streamlit as st
 from vega_datasets import data
 
 st.set_page_config(
-    page_title="Time series annotations", page_icon="⬇", layout="centered"
+    page_title="Time series annotations 2", page_icon="⬇", layout="centered"
 )
 
 
