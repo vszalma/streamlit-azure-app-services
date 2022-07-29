@@ -4,7 +4,7 @@ import streamlit as st
 from vega_datasets import data
 
 st.set_page_config(
-    page_title="Time series annotations 2", page_icon="⬇", layout="centered"
+    page_title="Time series annotations", page_icon="⬇", layout="centered"
 )
 
 
@@ -25,7 +25,7 @@ def get_chart(data):
     )
 
     lines = (
-        alt.Chart(data, title="Evolution of stock prices")
+        alt.Chart(data, title="Evolution of stock price")
         .mark_line()
         .encode(
             x="date",
